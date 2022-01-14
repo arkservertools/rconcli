@@ -3,8 +3,10 @@
 ## Introduction
 
 Ark RCON Cli , it's a net/core win/linux console tool to send commands to ark server in a console
+
 It is intended to be used in your own batch scripts.
-Based on CoreRCON Library (https://github.com/ScottKaye/CoreRCON).
+
+Based on CoreRCON Library (https://github.com/Challengermode/CoreRcon).
 
 
 ## Usage
@@ -16,6 +18,7 @@ To send a specific command
 **rcon.exe ip=127.0.0.1 port=8800 pwd=mypassword cmd="listplayers"**
 
 **parameters**
+
 ip= ip of your ark server
 port= tcp port of your server
 pwd= specifies the serverpassword
@@ -26,6 +29,7 @@ To send a sequence commands
 **rcon.exe ip=127.0.0.1 port=8800 pwd=mypassword file=filecommands.txt**
 
 **parameters**
+
 ip= ip of your ark server
 port= tcp port of your server
 pwd= specifies the serverpassword
